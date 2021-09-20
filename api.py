@@ -7,7 +7,7 @@ import numpy as np
 from threading import Timer
 
 # load model
-model = pickle.load(open('D:\Chola Finance\divyam file\model.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 
 # app
 app = Flask(__name__)
